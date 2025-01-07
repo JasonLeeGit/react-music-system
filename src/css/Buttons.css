@@ -1,0 +1,23 @@
+.home-button {
+    background-color: #a4c991;
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0;
+    /*
+    position: absolute;
+    top: 30%;
+    left: 965px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    */
+  }
+
+  .react-confirm-alert-overlay {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+  }

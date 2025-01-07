@@ -1,0 +1,10 @@
+.loading-data {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.active-large {
+  width: 150px;
+  height: 150px;
+}

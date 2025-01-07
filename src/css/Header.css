@@ -1,0 +1,16 @@
+
+.header {
+    background-color: #a4c991;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1.header-title {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+

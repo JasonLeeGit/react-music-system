@@ -1,0 +1,56 @@
+.create-album-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-album-submit-container {
+  height: 200px;
+  position: relative;
+}
+
+.create-album-submit-button {
+  background-color: #a4c991;
+  color: white;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 263px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.cancel-create-album-submit-button {
+  background-color: #a4c991;
+  color: white;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 400px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.success-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

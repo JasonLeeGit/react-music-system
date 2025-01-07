@@ -1,0 +1,9 @@
+.content-container {
+  min-height: calc(100vh - 188px);
+}
+
+label {
+  width: 240px;
+  display: inline-block;
+  margin-left: 20px;
+}
