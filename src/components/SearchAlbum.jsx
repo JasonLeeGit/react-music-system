@@ -37,10 +37,9 @@ const SearchAllAlbums = () => {
     }
     const findAlbumsByArtists = async (searchTerm) => {
         if (searchTerm) {
-            fetch(`http://localhost:8080/v1/music/service/search/albums/?artistName=${searchTerm}`)
-                .then((response) => response.json())
-                .then((data) => setAlbums(data))
-  
+            const response = await fetch(`http://localhost:8080/v1/music/service/search/albums/?artistName=${searchTerm}`)
+                const data = await response.json();
+                setAlbums(data); 
            if (albums) {
                 setShowResultsDiv(true)
                 setShowErrorDiv(false)
